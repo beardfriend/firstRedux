@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@Containers/*": ["./src/Containers/*"],
+      "@Pages/*": ["./src/Pages/*"],
+      "@Components/*": ["./src/Components/*"],
+      "@Features/*": ["./src/Features/*"],
+      "@Global/*": ["./src/Global/*"],
+      "@App/*": ["./src/App/*"],
+      "@API": ["./src/Features/API/index.ts"],
+      "@Utils/*": ["./src/Utils/*"],
+      "@Hooks/*": ["./src/Hooks/*"]
+    }
+  }
+}
